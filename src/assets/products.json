@@ -1,0 +1,362 @@
+[
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão tipo Vortex - INQV",
+        "description": "O medidor de vazão Vortex da Influx é utilizado para gases, vapor e aplicações líquidas. É ideal para medir vapor saturado, vapor superaquecido, ar comprimido, nitrogênio, gases liquefeitos, gases de combustão, dióxido de carbono, água totalmente desmineralizada, solventes, óleos de transferência de calor, água de alimentação de caldeira, condensado, etc.\n\n• Compensação integrada de pressão e temperatura;\n• Comunicação 4-20mA, pulso com HART ou pulso com RS485 são selecionáveis;\n• Ampla faixa de temperatura até 350 °C;\n• Sensor incorporado, 4 cristais piezoelétricos encapsulados dentro do sensor;\n• Sem peças móveis, sem abrasão, peças internas sem desgaste, corpo em SS304 totalmente soldado (SS316 opcional);\n• Conexões disponíveis: Flangeado, Wafer, Tri-Clamp, rosca, Inserção;",
+        "path_images": {
+            "folder": "medidor_de_vazao_tipo_vortex_inqv",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão tipo mássico tipo Coriolis - INSC",
+        "description": "O medidor de vazão do tipo Coriolis pode medir diretamente o fluxo de massa e tem grande influência nos métodos de processamento nas indústrias que exigem maior precisão de medição ou até controle de custódia. Comparado com a medição de vazão volumétrica tradicional, tem as seguintes vantagens:\n\n• Alta precisão: Geralmente de 0,1%\n• Diâmetro nominal: 03 mm a 150mm\n• Tensão operacional: 85-265 VCA ou 12-24 VCC\n• Temperatura de operação: -40° a 300°C\n• Comunicação e saída: RS485, pulso, 4-20mA e HART;",
+        "path_images": {
+            "folder": "medidor_de_vazao_tipo_massico_tipo_coriolis_insc",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão ultrassonico Fixo - INQTT-F",
+        "description": "O medidor de vazão ultrassônico pode ser usado para quase qualquer líquido como água, produtos químicos, combustíveis, irrigação, água urbana, dentre outros líquidos que não tenham sólidos em suspensão. Seu grande diferencial é o baixo custo relacionado às outras aplicações, o que pode ser um grande aliado em seu estoque para substituições emergenciais, sem a necessidade de parada da planta.\n\n• Precisão ~ 1%\n• Faixa de medição de DN15 a DN6000mm\n• Alimentação: 24VDC ou 110/220VAC\n• O display LCD pode exibir fluxo instantâneo, fluxo total, velocidade de fluxo e condição de trabalho\n• Temperatura de operação: -30°C a 160°C\n• Comunicação: Modbus RS485 com saída 4-20mA\n• Sua aplicação pode ser pelos sensores ultrassônicos clamp-on, ou pelo método de inserção.\n• Fazemos instalação dos sensores de inserção a quente (sem a necessidade para a linha de produção).",
+        "path_images": {
+            "folder": "medidor_de_vazao_ultrassonico_fixo_inqtt_f",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão ultrassonico Portátil - INQTT-P",
+        "description": "O medidor de vazão ultrassônico pode ser usado para quase qualquer líquido como água, produtos químicos, combustíveis, irrigação, água urbana, dentre outros líquidos que não tenham sólidos em suspensão. \n\n• Precisão ~ 1%\n• Faixa de medição de DN15 a DN6000mm\n• Baterias recarregáveis Ni-MH de com capacidade de duração de 10 horas\n• Capacidade de armazenar dados de medição\n• O display LCD pode exibir fluxo instantâneo, fluxo total, velocidade de fluxo e condição de trabalho\n• Temperatura de operação: -30°C a 160°C\n• Saída RS232 opcional.",
+        "path_images": {
+            "folder": "medidor_de_vazao_ultrassonico_portatil_inqtt_p",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão ultrassonico para canal aberto - INQCP",
+        "description": "O medidor ultrassônico para canal aberto é amplamente utilizado em tratamento de água, irrigação, indústrias químicas e todas as aplicações que se necessita medir líquido corrente sobre algum canal de dimensões conhecidas. \n\nO sensor é montado no topo da calha e a vazão é calculada pela relação do tempo de emissão e recebimento dos pulsos emitidos.\n• A precisão da mudança de nível é 1mm, o que dá uma alta sensibilidade no cálculo da vazão;\n• Adequado para uma variedade de açudes e calhas, calhas Parshall (ISO), açude triangular em ângulo reto, açude retangular;\n• Exibe vazão em L/S ou m³/h;\n• Excelente capacidade anti-interferência;\n• Visor nítido com LCD retroiluminado aprimorado de 14 dígitos e duas linhas;\n• O comprimento do cabo para modelo remoto é de até 10m;\n• Sensor com grau de proteção IP68;\n• Fornecido com saída de 4-20 mA e comunicação serial R485 (MODBUS RTU);\n• Fornece até 6 relés programáveis para alarmes;\n• Possível instalação com conversor integrado ao sensor.",
+        "path_images": {
+            "folder": "medidor_de_vazao_ultrassonico_para_canal_aberto_inqcp",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Vazão",
+        "name": "Medidor de vazão eletromagnético - IN7014",
+        "description": "Utilizado para medição dos mais variados líquidos com condutividade mínima de 5 µS/cm. Atendemos diâmetros de 1/8” a 120” (DN3 a DN3000).\n\n• Flangeado, Waffer, Conexão Sanitária, SMS, especiais sob consulta;\n• Revestimentos em Borracha natural, Neoprene, PTFE, PFA, Cerâmica, especiais sob consulta.\n• Comunicação 4-20mA + Modbus RS485, Hart, Profibus DA/DP, GPRS.\n• Eletrodos vão desde Inox 316L aos mais especiais como Platina ou Inox revestido com tungstênio.\n• Medidores com garantia de até 18 meses;\n• Mais de 130 medidores instalados em todo o Brasil;\n• Equipe especializada e com experiência para auxiliar na especificação correta;\n• Possibilidade de Start-up assistido;\n• Calibração de testes realizados em laboratório próprio – Rastreado RBC;\n• Conversor de vazão com alimentação AC e DC para entrega imediata, com aplicação universal (trim com a vazão de processo) em tubos eletromagnéticos de diferentes fabricantes;\n• Temos equipamentos com entrega rápida disponíveis em nosso estoque.",
+        "path_images": {
+            "folder": "medidor_de_vazao_eletromagnetico_in7014",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Pressão",
+        "name": "Transmissor de Pressão Diferencial | Manométrica | Absoluta",
+        "description": "O transmissor inteligente de pressão diferencial IN7020-D é aquele ideal para aplicações onde haverá pressão do processo nos dois lados do sensor capacitivo, tanto no lado alto quanto no lado low. Já o transmissor inteligente de pressão manométrica IN7020-M é aquele ideal para aplicações onde haverá pressão do processo no lado high do sensor capacitivo, enquanto que o lado low fica aberto para a atmosfera. Temos também o transmissor inteligente de pressão absoluta IN7020-A que é aquele ideal para aplicações onde haverá pressão do processo no lado high do sensor capacitivo, enquanto que o lado low há uma câmara com vácuo.\n\n• Exatidão: ±0,075%\n• Sinal de Saída: 4 a 20 mA\n• Protocolo De Comunicação: Hart\n• Alimentação: 9 ~ 32 Vcc, Sem Polaridade -12 mA\n• Temperatura De Operação: -20 a 100 °C\n• Grau De Proteção: IP66\n• Tempo De Resposta: 50 ms\n• Rangeability: 80:1\n• Display: Com Backlight\n• Configuração: Hart Config(Software Gratuito) ou Pushbuttons.",
+        "path_images": {
+            "folder": "transmissor_de_pressao_diferencial_manometrica_absoluta",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Pressão",
+        "name": "Transmissor de Pressão e Nível Flangeado",
+        "description": "O transmissor inteligente de pressão e nível flangeado IN7020-L pode ser confeccionado com diferentes tipos de tomada de nível. Uma ampla variação de tamanhos de flange, classe de pressão, material de lâminas para diagrama e fluído de enchimento permite a especificação precisa que melhor atenderá o processo a ser controlado.\n\n• Exatidão: ±0,075%\n• Sinal de Saída: 4 a 20 mA\n• Protocolo De Comunicação: Hart\n• Alimentação: 9 ~ 32 Vcc, Sem Polaridade -12 mA\n• Temperatura De Operação: -20 a 100 °C\n• Grau De Proteção: IP66\n• Tempo De Resposta: 50 ms\n• Rangeabilidade: 80:1\n• Display: Com Backlight\n• Configuração: Hart Config(Software Gratuito) ou Pushbuttons.\n• Flange Tomada Nível: De 1 a 4” (150 a 600#)\n• Diafragma Tomada Nível: Aço Inox, Hastelloy, Monel, Tântalo\n• Revestimento Tomada Nível: Hallar, Teffzel\n• Óleo Tomada Nível: DC704, DC200, Neobee\n• Processo Com Vácuo: Montagem Especial (Moeda Soldada) Para Alta Performance Em Casos De Vácuo.",
+        "path_images": {
+            "folder": "transmissor_de_pressao_e_nivel_flangeado",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Pressão",
+        "name": "Transmissor de Pressão Sanitário",
+        "description": "O transmissor inteligente de pressão sanitário é projetado para aplicações em ambientes onde a higiene é essencial. Ele garante medições precisas e confiáveis em sistemas de processamento de alimentos e farmacêuticos.\n\n• Exatidão: ±0,075%\n• Sinal de Saída: 4 a 20 mA\n• Protocolo De Comunicação: Hart\n• Alimentação: 9 ~ 32 Vcc, Sem Polaridade -12 mA\n• Temperatura De Operação: -20 a 100 °C\n• Grau De Proteção: IP66\n• Tempo De Resposta: 50 ms\n• Rangeabilidade: 80:1\n• Display: Com Backlight\n• Configuração: Hart Config(Software Gratuito) ou Pushbuttons.\n• Flange Tomada Nível: De 1 a 4” (150 a 600#)\n• Diafragma Tomada Nível: Aço Inox, Hastelloy, Monel, Tântalo\n• Revestimento Tomada Nível: Hallar, Teffzel\n• Óleo Tomada Nível: DC704, DC200, Neobee\n• Processo Com Vácuo: Montagem Especial (Moeda Soldada) Para Alta Performance Em Casos De Vácuo.",
+        "path_images": {
+            "folder": "transmissor_de_pressao_sanitario",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Pressão",
+        "name": "Transmissor Gauge de Pressão Manométrica",
+        "description": "O transmissor inteligente gauge de pressão manométrica IN7020-G é aquele ideal para aplicações onde há a necessidade de montagem direta no processo. A leitura do sensor é feita apenas no seu lado high, enquanto o lado low fica inativo. Para maior facilidade e agilidade em campo, pode ser fornecido de fábrica com conexão macho ou fêmea, ficando assim bem simples de ser instalado pelo usuário.\n\n• Exatidão: ±0,075%\n• Sinal de Saída: 4 a 20 mA\n• Protocolo De Comunicação: Hart\n• Alimentação: 9 ~ 32 Vcc, Sem Polaridade -12 mA\n• Temperatura De Operação: -20 a 100 °C\n• Grau De Proteção: IP66\n• Tempo De Resposta: 50 ms\n• Rangeabilidade: 80:1\n• Display: Com Backlight\n• Configuração: Hart Config(Software Gratuito) ou Pushbuttons.\n• Temos também as opções flangeada e sanitário para o transmissor Gauge.",
+        "path_images": {
+            "folder": "transmissor_gauge_de_pressao_manometrica",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Nível",
+        "name": "Medidor de nível tipo Radar INQR",
+        "description": "O medidor de nível tipo radar INQR utiliza a tecnologia FMCW (onda contínua modulada em frequência) para medições precisas. A antena transmite o sinal de radar de alta frequência, modulando em frequência para aumentar a linearidade.\n\n• A precisão da medição é de 1mm;\n• Ponto cego de medição reduzido, permitindo a utilização em tanques de menor porte;\n• O ângulo do feixe pode chegar a 3°, evitando interferência de eco falso;\n• Frequência de 76 ~ 81 GHz, largura de frequência de varredura FM 5 GHz;\n• Temperatura Ambiente: -30 ~ 70 °C;\n• Material da carcaça: Alumínio fundido, SS304, SS316;\n• Alimentação: 18-22 VDC, 85-865 VCA;\n• Sinal de saída: 2 fios / 4 fios 4-20mA, HART/RS485 Modbus/Bluetooth;\n• Ex-pof: Ex d IIC T6 Gb (opcional);\n• Partes molhadas: PTFE, Aço carbono, SS304, SS316.",
+        "path_images": {
+            "folder": "medidor_de_nivel_tipo_radar_inqr",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Nível",
+        "name": "Medidor de nível tipo Ultrassônico",
+        "description": "O medidor de nível ultrassônico é um dispositivo de medição de nível para material a granel ou líquido, com características de medição sem contato, alta confiabilidade, econômico e fácil de instalar e manter.\n\n• Faixa de nível: 4, 6, 8, 10, 12, 20, 30m;\n• Precisão: 0,5%;\n• Resolução: 3 mm ou 0,1%;\n• Saída: 4-20 mA;\n• Sem fonte de alimentação padrão 24VDC;\n• Temperatura Ambiente do Transmissor: -20 a +60 °C, Sensor: -20 a +80 °C;\n• Transmissor IP65, Sensor IP68.",
+        "path_images": {
+            "folder": "medidor_de_nivel_tipo_ultrassonico",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Valmet OC - Medidor de consistência ótico",
+        "description": "A Medição de Consistência Óptica Valmet emprega múltiplos canais de fibra óptica, uma única fonte de luz e designs de sonda otimizados para fornecer medições de consistência confiáveis. Não há componentes eletrônicos ou outros componentes sensíveis na sonda, o que a torna resistente a altas temperaturas, pressão e vibrações.\n\n• Alta confiabilidade;\n• Design robusto para ambientes industriais;\n• Medições precisas de consistência;\n• Facilidade de instalação e manutenção.",
+        "path_images": {
+            "folder": "valmet_oc_medidor_de_consistencia_otico",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Valmet SP - Medidor de consistência tipo lâmina",
+        "description": "A Medição de Consistência de Lâmina Valmet de 4ª geração é a medição de consistência mais econômica do mercado para papel e celulose. Com a mais recente tecnologia, nosso princípio de detecção interna patenteado e uma interface de usuário moderna, é altamente preciso, mas fácil de comissionar e manter graças às curvas de calibração pré-definidas.",
+        "path_images": {
+            "folder": "valmet_sp_medidor_de_consistencia_tipo_lamina",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidor de consistência Rotativo",
+        "description": "A solução de sensor rotativo tem sido a escolha preferida para inúmeras aplicações em fábricas de papel e celulose há décadas. A tecnologia Valmet para rotativos ajuda você a atender imediatamente aos seus requisitos de consistência de fibra. As fábricas de celulose com altas temperaturas, por exemplo, se beneficiam da longa vida útil da estrutura robusta do sensor e da seleção de componentes. O Valmet Rotativo pode ser instalado em seções de tubos onde outros sensores de força de cisalhamento não podem funcionar.",
+        "path_images": {
+            "folder": "medidor_de_consistencia_rotativo",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidor de consistência Microondas - Valmet MCA",
+        "description": "A avançada tecnologia de micro-ondas torna o Valmet MCA a medição de consistência total mais precisa e confiável, independentemente da vazão, brilho ou cor da fibra. O Valmet MCA utiliza medição bruta rápida e grandes volumes de amostra para fornecer resultados de medição excepcionais, cobrindo uma ampla faixa de consistência de 0% a 16%.",
+        "path_images": {
+            "folder": "medidor_de_consistencia_microondas_valmet_mca",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidor para baixa consistência - Valmet LC",
+        "description": "Usando a Medição Óptica de Baixa Consistência Valmet, você pode controlar melhor os filtros e prensas da máquina de papel para reduzir variações no processo. A solução Valmet LC funciona no controle da consistência da alimentação, bem como na medição da qualidade do filtrado. Os clientes muitas vezes confiam na precisão do Valmet LC para detectar materiais indesejados em águas de circulação purificadas.",
+        "path_images": {
+            "folder": "medidor_para_baixa_consistencia_valmet_lc",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidor de sólidos totais - Valmet TS (Aplicação em tratamento de água)",
+        "description": "A Valmet Total Solids Measurement (Valmet TS) realiza a medição confiável e precisa em tempo real por micro-ondas para controlar e otimizar o processo de tratamento de sólidos, fornecendo aos operadores informações sobre sólidos totais 24 horas por dia, 7 dias por semana. Sendo a medição mais confiável e precisa para aplicações de efluentes, o Valmet TS permite economia na dosagem de polímeros, energia e transporte.\n\n• Fornece maior teor de sólidos no lodo;\n• Economia na dosagem de polímero;\n• Economia de energia no bombeamento;\n• Custo de aquisição reduzido no digestor;\n• Maior capacidade com a planta existente;\n• Produção otimizada de biocombustíveis;\n• Custos de transporte reduzidos;\n• Uso altamente eficiente de centrífugas de desidratação;\n• Menos análises laboratoriais;\n• Livre de manutenção;\n• Calibração de ponto único;\n• Longa experiência e know-how em tecnologia de micro-ondas.",
+        "path_images": {
+            "folder": "medidor_de_solidos_totais_valmet_ts",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medição de baixos sólidos Valmet - Valmet LS",
+        "description": "A medição de baixo teor de sólidos Valmet (Valmet LS) oferece grande economia de custos para estações de tratamento de água, otimizando sua dosagem de polímero e minimizando o conteúdo de sólidos na água rejeitada. Valmet LS é o primeiro e único medidor que pode medir sólidos suspensos centralizados de forma confiável e é usado especialmente com as máquinas de desidratação de lodo. Os operadores podem selecionar facilmente o tipo certo de polímero enquanto acompanham continuamente sua qualidade.",
+        "path_images": {
+            "folder": "medicao_de_baixos_solidos_valmet_ls",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Sensores pré-pressurizados de pH e ORP",
+        "description": "As sondas pré-pressurizadas de pH e ORP são direcionadas especificamente às necessidades exigentes das indústrias de bioprocessos, como farmacêutica, alimentícia, de bebidas e cervejeira. Elas garantem medições precisas e confiáveis em ambientes desafiadores, proporcionando maior eficiência e controle nos processos de produção.",
+        "path_images": {
+            "folder": "sensores_pre_pressurizados_ph_orp",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Sensores de pH e ORP preenchidos com polímero",
+        "description": "Sensores de pH preenchidos com polímero proporcionam boa longevidade e estabilidade em muitas aplicações. O eletrólito viscoso usado como parte do projeto de referência ajuda a retardar bastante a entrada de líquidos do processo através do diafragma. O resultado final é uma vida útil mais longa do sensor, resposta mais rápida e menos erros devido a efeitos de envenenamento e entupimento.",
+        "path_images": {
+            "folder": "sensores_ph_orp_polimero",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidores de oxigênio dissolvido",
+        "description": "Sensores ópticos medem usando um corante fluorescente sensível ao oxigênio. O corante não requer tempo de equilíbrio, por isso está instantaneamente pronto para uso. Um indicador de qualidade exibe a integridade da tampa do sensor e a manutenção é tão simples quanto remover e reinstalar a tampa.",
+        "path_images": {
+            "folder": "medidores_oxigenio_dissolvido",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Medidores de condutividade",
+        "description": "A condutividade é uma medida geral dos ácidos, bases, sais e outros sólidos dissolvidos em uma solução líquida. A condutividade elétrica é uma boa indicação da pureza (ou falta dela) do líquido. A relação entre a adição de concentração de um ácido ou base à água pura pode ser mapeada por uma curva bem definida de condutividade versus concentração. Essas medições são frequentemente usadas para criar soluções como NaOH para aplicações de limpeza no local.",
+        "path_images": {
+            "folder": "medidores_condutividade",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    },
+    {
+        "category": "Analítica",
+        "name": "Sensores recarregáveis de pH e ORP",
+        "description": "Aplicações exigentes podem percolar o eletrólito do sensor de pH, causando inconsistência na medição e eventual falha. Os sensores de pH recarregáveis Hamilton resolvem esse problema, permitindo ao usuário reabastecer o eletrólito.",
+        "path_images": {
+            "folder": "sensores_recarregaveis_ph_orp",
+            "main": "./image1.jpeg",
+            "path_list": [
+                "./image1.jpeg",
+                "./image2.jpeg",
+                "./image3.jpeg",
+                "./image4.jpeg"
+            ]
+        }
+    }
+]
