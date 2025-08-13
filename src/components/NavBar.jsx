@@ -11,34 +11,31 @@ const NAV_ITEMS = [
   { to: '/contacts',   label: 'Contacts' },
 ];
 
-const NavBar = ({ transparent = false, relative = false }) => {
-  const headerClass = classNames('header', {
-    transparent,
-    solid: !transparent,
-    relative,
-  });
+const NavBar = () => {
+  // const headerClass = classNames('header', {
+  //   transparent,
+  //   solid: !transparent,
+  //   relative,
+  // });
 
   return (
-    <header className={headerClass}>
+    <header>
       <div className="nav-center">
-        <NavLink to="/home" className="nav-logo">
-          {/* <img src={logo} alt="Logo" /> */}
-        </NavLink>
+        {/* <NavLink to="/home" className="nav-logo">
+          <img src={logo} alt="Logo" />
+        </NavLink> */}
 
         <nav className="navbar" aria-label="Main navigation">
           <ul className="nav-list">
-            {NAV_ITEMS.map(({ to, label }) => (
+            {/* {NAV_ITEMS.map(({ to, label }) => (
               <li key={to} className="nav-item">
                 <NavLink
                   to={to}
-                  className={({ isActive }) =>
-                    classNames('nav-link', { selected: isActive })
-                  }
                 >
                   {label}
                 </NavLink>
               </li>
-            ))}
+            ))} */}
           </ul>
         </nav>
       </div>

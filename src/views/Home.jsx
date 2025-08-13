@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <div className="main-background bg-dark">
-                {/* <NavBar/> */}
+                <NavBar/>
                 <Container flexDirection="column"></Container>
             </div>
         </>
