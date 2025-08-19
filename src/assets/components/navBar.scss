@@ -1,0 +1,101 @@
+.header {
+  height: 14dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 100;
+  position: fixed;
+}
+
+.nav-center {
+  display: flex;
+  width: 61dvw;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  width: 24vw;
+
+  .nav-list {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+  }
+
+}
+
+.navbar a {
+  background: none;
+  border: none;
+  color: #DBDEDE;
+  font-size: 15px;
+  font-weight: 100;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 0.3dvw;
+}
+
+.navbar a:hover {
+  color: #00ff00;
+}
+
+a:focus {
+  background-color: transparent;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #00ff00;
+  left: 50%;
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar .selected::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #00ff00;
+  left: 0;
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.navbar:hover .selected::after {
+  width: 0;
+}
+
+.navbar .selected:hover::after {
+  width: 100%;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.solid {
+  background-color: #071526;
+}
+
+.relative {
+  position: relative;
+}
