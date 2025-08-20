@@ -6,20 +6,44 @@
 
 .main-background {
   background-color: #606062;
-	background-size: cover;
-	background-position: center;
-	height: 100dvh;
-	width: 100dvw;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container-center {
-	width: 61dvw;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: relative;
+  width: 61dvw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.separator {
+  position: relative;
+  width: 100vw;
+  height: 40px;
+}
+
+.separator::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #606062;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
