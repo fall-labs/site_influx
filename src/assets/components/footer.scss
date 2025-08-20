@@ -15,8 +15,11 @@
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    height: 350px;
-    margin-top: 30px;
+
+    > div {
+      min-width: 350px;
+      margin-top: 30px;
+    }
   }
 
   .about {
@@ -72,5 +75,6 @@
     line-height: 16px;
     display: flex;
     align-items: center;
+    margin-top: 30px;
   }
 }
