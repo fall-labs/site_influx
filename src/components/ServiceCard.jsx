@@ -3,11 +3,17 @@ import "../assets/components/card.scss"
 const Card = ({ index, title, infoText }) => {
     return(
     <div key={"card-" + index} className="card">
-        <div className="rectangle-blue">
-            <strong className='title'>{title}</strong>
+        <div className="card-rectangle">
+            <div className="card-img">imagem</div>
             <div>
-                <span>{infoText}</span>
+                <div>
+                    <strong className='card-title'>{title}</strong>
+                </div>
+                <div className="card-txt">
+                    <span>{infoText}</span>
+                </div>
             </div>
+
         </div>
     </div>
     );
