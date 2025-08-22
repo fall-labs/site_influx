@@ -1,0 +1,46 @@
+.service {
+    width: 100dvw;
+    height: 1291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.service-container {
+    width: 61dvw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+
+.service-card-container{
+    width: 354px;
+    height: 381px;
+    background-color: white;
+    border-radius: 20px 20px 7px 7px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+
+}
+
+
+.service-text{
+    width: 100%;
+    margin-top: 82%;
+    background-color: rgb(168, 207, 69);
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 640;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}

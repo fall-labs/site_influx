@@ -1,22 +1,15 @@
-import "../assets/components/card.scss"
+import "../assets/components/service.scss"
 
-const Card = ({ index, title, infoText }) => {
+const ServiceCard = ({ index, title, infoText }) => {
     return(
-    <div key={"card-" + index} className="card">
-        <div className="card-rectangle">
-            <div className="card-img">imagem</div>
-            <div>
-                <div>
-                    <strong className='card-title'>{title}</strong>
-                </div>
-                <div className="card-txt">
-                    <span>{infoText}</span>
-                </div>
+    <div className="service">
+        <div className="service-container">
+            <div className="service-card-container">
+                <div className="service-text">Medidor de vazão tipo Vortex - INQV</div>
             </div>
-
         </div>
     </div>
     );
 }
 
-export default Card;
+export default ServiceCard;

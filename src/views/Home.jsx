@@ -5,6 +5,7 @@ import Container from "../components/Container";
 import Footer from "../components/Footer";
 import * as siteData from "../assets/data.json";
 import WorkFlow from "../components/WorkFlowCard";
+import ServiceCard from "../components/ServiceCard";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <NavBar />
         <Container flexDirection="column"></Container>
         <WorkFlow data={siteData.workflow}/>
+        <ServiceCard />
         <div class="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
       </div>
