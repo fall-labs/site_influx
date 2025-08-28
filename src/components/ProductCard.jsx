@@ -1,13 +1,9 @@
 import "../assets/components/product.scss"
 
-const ProductCard = ({ index, title, infoText }) => {
+const ProductCard = ({ key, title }) => {
     return(
-    <div className="product">
-        <div className="product-container">
-            <div className="product-card-container">
-                <div className="product-text">Medidor de vazão tipo Vortex - INQV</div>
-            </div>
-        </div>
+    <div className="product-card-container" key={key}>
+        <div className="product-text">{title}</div>
     </div>
     );
 }

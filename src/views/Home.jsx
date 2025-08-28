@@ -14,7 +14,6 @@ function Home() {
         <NavBar />
         <Container flexDirection="column"></Container>
         <WorkFlow data={siteData.workflow}/>
-        <ProductCard />
         <div class="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
       </div>

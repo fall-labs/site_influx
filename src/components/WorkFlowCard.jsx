@@ -6,6 +6,7 @@ import image_pos_venda from "../assets/images/workflow_pos_venda.png"
 import image_workflow_background from "../assets/images/workflow-background.svg"
 import mini_influx_logo from "../assets/images/mini-influx-logo.svg"
 import TrasparentCard from "./TransparentCard"
+import Container from "./Container"
 
 const WorkFlow = ({data}) => {
     const workflow_images = 
@@ -18,7 +19,7 @@ const WorkFlow = ({data}) => {
     return(
     <div className="workflow">
         <img className="workflow-background" src={image_workflow_background}></img>
-        <div className="workflow-container">
+            <Container>
             <div className="workflow-header">
                 <img src={mini_influx_logo}></img>
                 <p class="">WorkFlow</p>
@@ -28,7 +29,7 @@ const WorkFlow = ({data}) => {
                 <TrasparentCard imagem_url={workflow_images[item.title]} title={item.title} text={item.text}/>
             ))}
             </div>
-        </div>
+            </Container>
     </div>
     );
 }

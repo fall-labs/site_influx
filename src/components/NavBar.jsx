@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
-// import logo from "../assets/logo.svg";
 import classNames from 'classnames';
-import "../assets/components/navBar.scss"
+import logo from "../assets/images/influx-logo-dark.svg" // descomente se tiver logo
+import "../assets/components/navBar.scss";
 
 const NAV_ITEMS = [
   { to: '/home',      label: 'Home' },
@@ -21,7 +21,7 @@ const NavBar = ({ transparent = false }) => {
     <header className='header'>
       <div className="nav-center">
         <NavLink to="/home" className="nav-logo">
-          {/* <img src={logo} alt="Logo" /> */}
+          <img src={logo} alt="Logo" className='nav-logo img'/>
         </NavLink>
 
         <nav className="navbar" aria-label="Main navigation">

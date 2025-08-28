@@ -1,6 +1,6 @@
 const Container = ({
 	children,
-	flexDirection = "row",
+	flexDirection = "column",
 	customStyle = {},
 }) => {
 	return (
