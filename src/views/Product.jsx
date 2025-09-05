@@ -1,19 +1,30 @@
-import { NavLink } from "react-router-dom";
 import "../assets/views/product.scss";
+
 import Container from "../components/Container";
 import NavBar from "../components/NavBar";
+import BreadCrumbBack from "../components/BreadCrumbBack";
+import { useSearchParams } from 'react-router-dom';
+import dataJson from "../assets/data.json"
+import parse from "html-react-parser";
 
 const Product = () => {
-  return (
+    const productsData = dataJson.products
+    const [searchParams] = useSearchParams();
+    const produto = searchParams.get('product');
+    let data = productsData.filter(p => (p.name === produto))[0]
+
+    return (
     <div className="main-background bg-dark" style={{ height: "100vh" }}>
         <NavBar />
+        <BreadCrumbBack />
         <Container>
+            <div className="title">{data.name}</div>
             <div className="product-page">
-                <NavLink to="/products">← Voltar</NavLink>
+                
                 <div className="product-description-and-img">
                     <div className="product-description">
                         <p>
-                            
+                        {parse(data.description)}
                         </p>
                     </div>
                     <div className="product-img">

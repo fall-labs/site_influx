@@ -1,0 +1,56 @@
+.breadcrumb-and-back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+}
+
+.breadcrumb-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 28px;
+    color: #5D8100;
+}
+
+.breadcrumb-container a,
+.breadcrumb-container a:visited {
+    color: #5D8100;
+    text-decoration: underline;
+}
+
+.back{
+    font-size: 28px;
+    color: #5D8100;
+}.back a:visited {
+    color: #5D8100;
+    text-decoration: underline;
+}
+
+.neutral{
+    color: #5D8100;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.title-and-filter{
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #606062;
+    background-color: white;
+    
+}
+
+.filter{
+    background-color: bisque;
+}
