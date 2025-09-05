@@ -36,3 +36,10 @@
     padding: 8px;
     border-radius: 10px;
 }
+
+.other-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+}
