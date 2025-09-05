@@ -10,7 +10,13 @@ import dataJson from "../assets/data.json"
 import BreadCrumbBack from "../components/BreadCrumbBack";
 import getAllData from "../components/ListDataFunction";
 
+const handleChange = (event) => {
+  console.log(event) 
+  setSelectedValue(event.target.value);
+  };
+
 function AllProducts() {
+    
     let productObj = getAllData();
     return (
     <>
@@ -18,6 +24,10 @@ function AllProducts() {
         <NavBar />
         <Container flexDirection="column">
         <BreadCrumbBack />
+        <select onChange={handleChange} className="filter">
+            <option value="option">Todos</option>
+            {Object.keys(productObj).map((productKey)=>(<option value={productKey}>{productKey}</option>))}
+        </select>
         <div className="product-list-by-type">
             {Object.keys(productObj).map((productKey,index)=>
             (
