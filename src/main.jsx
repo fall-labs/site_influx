@@ -5,6 +5,7 @@ import './index.css'
 import Home from './views/Home'
 //import Services from './components/Services'
 import AllProducts from './views/AllProducts';
+import Product from './views/Product';
 //import Contacts from './components/Contacts'
 //import AboutUs from './components/AboutUs'
 
@@ -21,6 +22,7 @@ root.render(
         {/* <Route path="/contacts" element={<Contacts/>}/> */}
         <Route path="/home" element={<Home/>}/>
         {/* <Route path="/aboutUs" element={<AboutUs/>}/> */}
+        <Route path="/produto/teste" element={<Product />} />
     </Routes>
   </BrowserRouter>
 );

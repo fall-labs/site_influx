@@ -30,7 +30,7 @@ function AllProducts() {
         </div>
         <div className="title-and-filter">
             <div className="title">Catálogo de Produtos</div>
-            <div className="filter">Tipo</div>
+            <div className="filter">Tipo:</div>
         </div>
 
         <div className="product-list-by-type">
