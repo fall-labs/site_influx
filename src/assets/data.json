@@ -8,6 +8,28 @@
     "email": "vendas@influxbrasil.com",
     "address": "Avenida Altinópolis, 225<br/>Sorocaba/SP<br/>CEP: 18070-820"
   },
+  "services": [
+      {
+        "title": "Medição Vazão em Campo",
+        "description": "<p>A Influx tem vasta experiencia na medição de vazão com medidores não intrusivos.<br>• Fluidos com ou sem concentração de sólidos;<br>• Temperaturas de -30°C a 160°C;<br>• Medidores certificados;<br>• Mais de 1.000 pontos já medidos;<br>• Atendemos de 1/2'' a 72''</p>",
+        "path_image": ""
+      },
+      {
+        "title": "Calibração de Vazão em Laboratório",
+        "description": "<p>Laboratório rastreado RBC/INMETRO<br>• Atendemos de 1/2'' a 14'';<br>• Temos 3 linhas independentes para que possamos agilizar o processo de calibração</p>",
+        "path_image": ""
+      },
+      {
+        "title": "Calibração de Vazão com Skid Móvel",
+        "description": "<p>Podemos atender sua planta in loco, com skid de vazão certificado;<br>• Atendemos até 18'';<br>• Temos equipe de mecânicos para realizar a retirada e instalação em campo</p>",
+        "path_image": ""
+      },
+      {
+        "title": "Mão de obra especializada",
+        "description": "<p>• Temos mão de obra para atendimento de paradas gerais;<br>• Retirada e instalação de transmissores;<br>• Calibração de transmissores em bancada;<br>• Realizamos serviços de reforma em transmissores de pressão e vazão</p>",
+        "path_image": ""
+      }
+  ],
   "products": [
     {
       "category": "Vazão",

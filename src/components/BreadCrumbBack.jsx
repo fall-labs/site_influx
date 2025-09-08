@@ -2,8 +2,6 @@ import "../assets/components/breadcrumbback.scss";
 
 import { NavLink } from "react-router-dom";
 
-import ProductCard from "./ProductCard";
-
 import Container from "./Container";
 
 const BreadCrumbBack = () => {

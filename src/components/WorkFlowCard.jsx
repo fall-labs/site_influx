@@ -22,7 +22,7 @@ const WorkFlow = ({data}) => {
             <Container>
             <div className="workflow-header">
                 <img src={mini_influx_logo}></img>
-                <p class="">WorkFlow</p>
+                <p>WorkFlow</p>
             </div>
             <div className="card-container">
             {data.map((item, index) => (

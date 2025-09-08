@@ -1,0 +1,50 @@
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8CF45;
+}
+
+.banner-container{
+    width: 100%;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0px 10px 0px;
+}
+
+.banner-text1{
+    width: 100%;
+    height: auto;
+    color: #606062;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.banner-text2{
+    width: 100%;
+    height: auto;
+    color: #606062;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.title-text{
+    font-size: 52px;
+    text-align: center;
+}
+
+.subtitle-text{
+    font-size: 44px;
+    text-align: center;
+}
+
+.subtitle-text2{
+    text-align: center;
+    font-size: 38px;
+}

@@ -6,7 +6,6 @@ import Container from "../components/Container";
 import Footer from "../components/Footer";
 import * as siteData from "../assets/data.json";
 import ProductCard from "../components/ProductCard";
-import dataJson from "../assets/data.json"
 import BreadCrumbBack from "../components/BreadCrumbBack";
 import getAllData from "../components/ListDataFunction";
 
@@ -18,6 +17,7 @@ const handleChange = (event) => {
 function AllProducts() {
     
     let productObj = getAllData();
+    console.log(productObj)
     return (
     <>
       <div className="main-background bg-dark" style={{ height: "100vh" }}>
