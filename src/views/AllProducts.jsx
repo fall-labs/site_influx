@@ -10,40 +10,39 @@ import BreadCrumbBack from "../components/BreadCrumbBack";
 import getAllData from "../components/ListDataFunction";
 
 const handleChange = (event) => {
-  console.log(event) 
+  console.log(event);
   setSelectedValue(event.target.value);
-  };
+};
 
 function AllProducts() {
-    
-    let productObj = getAllData();
-    console.log(productObj)
-    return (
+  let productObj = getAllData();
+  console.log(productObj);
+  return (
     <>
-      <div className="main-background bg-dark" style={{ height: "100vh" }}>
+      <div className="main-background bg-dark">
         <NavBar />
         <Container flexDirection="column">
-        <BreadCrumbBack />
-        <select onChange={handleChange} className="filter">
+          <BreadCrumbBack />
+          <select onChange={handleChange} className="filter">
             <option value="option">Todos</option>
-            {Object.keys(productObj).map((productKey)=>(<option value={productKey}>{productKey}</option>))}
-        </select>
-        <div className="product-list-by-type">
-            {Object.keys(productObj).map((productKey,index)=>
-            (
-            <>
-            <div className="product-type" key={"product-type" + index}>
-                <div className="product-type-color">{productKey}</div>
-            </div>
-            <div className={"category-list-" + productKey}>
-            {productObj[productKey].map((obj)=>
-            (
-              <ProductCard title={obj.name} key={obj.name}/>
+            {Object.keys(productObj).map((productKey) => (
+              <option value={productKey}>{productKey}</option>
             ))}
-            </div>
-            </>
-        ))}
-        </div>
+          </select>
+          <div className="product-list-by-type">
+            {Object.keys(productObj).map((productKey, index) => (
+              <>
+                <div className="product-type" key={"product-type" + index}>
+                  <div className="product-type-color">{productKey}</div>
+                </div>
+                <div className={"category-list-" + productKey}>
+                  {productObj[productKey].map((obj) => (
+                    <ProductCard title={obj.name} key={obj.name} />
+                  ))}
+                </div>
+              </>
+            ))}
+          </div>
         </Container>
         <div className="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
