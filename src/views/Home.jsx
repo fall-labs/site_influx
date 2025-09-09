@@ -11,11 +11,11 @@ import Banner from "../components/Banner";
 function Home() {
   return (
     <>
-      <div className="main-background bg-dark" style={{ height: "100vh" }}>
+      <div className="main-background bg-dark">
         <NavBar />
         <Banner />
         <Services />
-        <WorkFlow data={siteData.workflow}/>
+        <WorkFlow data={siteData.workflow} />
         <div class="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
       </div>
