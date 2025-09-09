@@ -1,21 +1,32 @@
 .service{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
     width: 100%;
+    padding-top: 80px;
 }
 .service-list{
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
     width: 100%;
     align-items: center;
     flex-direction: row;
     justify-content: center;
 }
 
-.giant-wave{
+.waves{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 99%;
+    overflow: hidden;
+}
+.giant-wave{
+    width: 500px;
+    height: 462px;
+    background-size: cover;
+    background-position: center;
 }

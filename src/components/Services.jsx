@@ -9,6 +9,10 @@ const Services = () => {
     let servicesObj = dataJson.services
     return (
       <div className="service">
+      <div className="waves">
+          <img src={section_icon_wave} className="giant-wave"></img>
+          <img src={section_icon_wave} className="giant-wave"></img>
+      </div>
       <Container>
           <div className="service-title">
             <img src={section_icon_wave}></img>

@@ -15,7 +15,6 @@ function Home() {
         <NavBar />
         <Banner />
         <Services />
-        <Container flexDirection="column"></Container>
         <WorkFlow data={siteData.workflow}/>
         <div class="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />

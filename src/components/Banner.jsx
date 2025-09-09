@@ -4,7 +4,7 @@ import Container from "../components/Container";
 const Banner = () => {
     return (
         <div className="banner">
-        <Container>
+        <Container customStyle={{marginTop: "16.5dvh"}}>
             <div className="banner-container">
                 <div className="banner-text1">
                     <div className="title-text">Instrumentação Industrial</div>
