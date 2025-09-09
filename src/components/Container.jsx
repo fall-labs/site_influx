@@ -1,16 +1,9 @@
-const Container = ({
-	children,
-	flexDirection = "column",
-	customStyle = {},
-}) => {
-	return (
-		<div
-			className={`container-center`}
-			style={{ ...customStyle, flexDirection }}
-		>
-			{children}
-		</div>
-	);
+const Container = ({ children, ...props }) => {
+  return (
+    <div id="container-center" {...props}>
+      {children}
+    </div>
+  );
 };
 
 export default Container;

@@ -1,5 +1,5 @@
 import "../assets/views/home.scss";
-import "../assets/views/allProducts.scss"
+import "../assets/views/allProducts.scss";
 
 import NavBar from "../components/NavBar";
 import Container from "../components/Container";

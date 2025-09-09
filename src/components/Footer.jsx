@@ -6,11 +6,12 @@ import parse from "html-react-parser";
 import wppIconPath from "../assets/images/whatsapp-icon.svg";
 import emailIconPath from "../assets/images/email-icon.svg";
 import addressIconPath from "../assets/images/address-icon.svg";
+import Container from "./Container";
 
 const Footer = ({ contactInfo, aboutInfo }) => {
   return (
     <div id="footer" aria-label="Footer">
-      <div>
+      <Container>
         <div className="contact">
           <h3>Contato</h3>
           <div className="list">
@@ -34,7 +35,7 @@ const Footer = ({ contactInfo, aboutInfo }) => {
           <br />
           <p>{parse(aboutInfo.text)}</p>
         </div>
-      </div>
+      </Container>
       <div className="rights">
         <p>© 2025 INFLUX Medição industrial. Todos os direitos reservados.</p>
       </div>

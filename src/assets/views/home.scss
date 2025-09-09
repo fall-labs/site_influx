@@ -9,19 +9,21 @@
   background-size: cover;
   background-position: center;
   height: 100dvh;
-  width: 100dvw;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.container-center {
-  width: 65dvw;
+#container-center {
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
   position: relative;
+
+  @media (orientation: landscape) {
+    width: 1126px;
+  }
 }
 
 .separator {

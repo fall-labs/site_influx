@@ -392,18 +392,18 @@
       }
     }
   ],
-  "workflow":[
+  "workflow": [
     {
-    "title":"Especificação",
-    "text":"Identificamos de forma assertiva o equipamento ideal, garantindo sucesso e segurança nas entregas."
+      "title": "Especificação",
+      "text": "Identificamos de forma assertiva o equipamento ideal, garantindo sucesso e segurança nas entregas."
     },
-    { 
-    "title":"Integração",
-    "text":"Startamos os equipamentos in loco para assegurar a conformidade com todos os requisitos técnicos."
+    {
+      "title": "Integração",
+      "text": "Startamos os equipamentos in loco para assegurar a conformidade com todos os requisitos técnicos."
     },
-    { 
-    "title":"Pós-venda",
-    "text":"Equipe técnica disponível para atender com presteza e agilidade durante toda a jornada do cliente."
+    {
+      "title": "Pós-venda",
+      "text": "Equipe técnica disponível para atender com presteza e agilidade durante toda a jornada do cliente."
     }
   ]
 }
