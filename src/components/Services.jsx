@@ -19,7 +19,6 @@ const Services = () => {
             <p>Serviços</p>
           </div>
           <div className="service-list">
-  
           {servicesObj.map((obj,index)=>(
             <ServiceCard key={index} title={obj.title} description={parse(obj.description)}/>
           ))}
