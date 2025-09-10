@@ -1,9 +1,5 @@
-/* =======================
-   HEADER
-======================= */
 .header {
-  height: 16.5dvh;
-  width: 100dvw;
+  height: 12dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,23 +11,20 @@
   box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.3);
 }
 
-/* =======================
-   NAVIGATION WRAPPER
-======================= */
 .nav-center {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 58vw;
+  width: 100%;
   height: 100%;
+
+  @media (orientation: landscape) {
+    max-width: 1126px;
+  }
 }
 
-/* =======================
-   NAVBAR
-======================= */
 .navbar {
   display: flex;
-  width: 30vw;
 }
 
 .navbar .nav-list {
@@ -44,18 +37,19 @@
   list-style: none;
 }
 
+.navbar .nav-list .nav-item {
+  padding: 0.5vw;
+}
+
 .navbar .nav-link {
   padding: 10px 0;
 }
 
-/* =======================
-   NAV LINKS
-======================= */
 .navbar a {
   background: none;
   border: none;
   color: #606062;
-  font-size: 1.5rem;
+  font-size: calc(0.4rem + 1vw);
   font-weight: 350;
   cursor: pointer;
   position: relative;
@@ -73,9 +67,6 @@
   background-color: transparent;
 }
 
-/* =======================
-   LINK UNDERLINE EFFECT
-======================= */
 .navbar a::after {
   content: "";
   position: absolute;
@@ -106,8 +97,8 @@
 }
 
 .nav-logo img {
-  width: 78%;
-  max-width: 340px;
+  width: 25dvw;
+  max-width: 265px;
   height: auto;
   display: block;
 }

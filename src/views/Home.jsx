@@ -16,7 +16,7 @@ function Home() {
         <Banner />
         <Services />
         <WorkFlow data={siteData.workflow} />
-        <div class="separator"></div>
+        <div className="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
       </div>
     </>

@@ -12,16 +12,18 @@
 
 .service-card-container{
     background-color: white;
-    max-width: 548px;
-    height: 627px;
-    margin: 16px;
+    max-width: 540px;
+    height: 69dvh;
     border-radius: 7px 7px 20px 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    min-width: 350px;
+    margin-bottom: 2vw;
 }
 
 .service-card-image{
-    height: 365px;
-    width: 548px;
+    height: 40dvh;
+    width: 100%;
 }
 
 .service-card-title{
@@ -35,4 +37,9 @@
     color: #606062;
     padding: 16px 40px 24px 40px;
     border-radius: 40px;
+}
+
+@media (orientation: portrait) {
+
+    
 }

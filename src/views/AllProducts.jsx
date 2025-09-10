@@ -21,7 +21,7 @@ function AllProducts() {
     <>
       <div className="main-background bg-dark">
         <NavBar />
-        <Container flexDirection="column">
+        <Container>
           <BreadCrumbBack />
           <select onChange={handleChange} className="filter">
             <option value="option">Todos</option>

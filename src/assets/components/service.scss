@@ -5,7 +5,7 @@
     align-items: center;
     background-color: white;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 3dvw;
 }
 .service-list{
     display: flex;
@@ -13,7 +13,7 @@
     width: 100%;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .waves{
@@ -21,7 +21,7 @@
     justify-content: space-between;
     width: 100%;
     position: absolute;
-    top: 99%;
+    top: 86%;
     overflow: hidden;
 }
 .giant-wave{

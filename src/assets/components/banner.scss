@@ -5,17 +5,16 @@
     justify-content: center;
     align-items: center;
     background-color: #A8CF45;
+    height: 43dvh;
 }
 
 .banner-container{
     width: 100%;
-    height: 392px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 40px 0px 10px 0px;
+    justify-content: space-evenly;
 }
 
 .banner-text1{
@@ -35,16 +34,23 @@
 }
 
 .title-text{
-    font-size: 52px;
+    font-size: calc(1.5rem + 0.7vw);
     text-align: center;
 }
 
 .subtitle-text{
-    font-size: 44px;
+    font-size: calc(1.0rem + 0.7vw);
     text-align: center;
 }
 
 .subtitle-text2{
     text-align: center;
-    font-size: 38px;
+    font-size: calc(1.0rem + 0.7vw);
+}
+
+@media (orientation: portrait) {
+    .banner {
+        display: none;
+    }
+    
 }
