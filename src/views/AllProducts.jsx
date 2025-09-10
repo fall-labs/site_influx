@@ -9,14 +9,12 @@ import ProductCard from "../components/ProductCard";
 import BreadCrumbBack from "../components/BreadCrumbBack";
 import getAllData from "../components/ListDataFunction";
 import InclinedSeparator from "../components/InclinedSeparator";
-
-const handleChange = (event) => {
-  console.log(event);
-  setSelectedValue(event.target.value);
-};
+import { useState } from "react";
 
 function AllProducts() {
   let productObj = getAllData();
+  const [filterValue, setFilterValue] = useState("Todos");
+
   return (
     <>
       <div className="main-background">
@@ -29,11 +27,11 @@ function AllProducts() {
               <div className="filter">
                 <span>Tipo:</span>
                 <select
-                  onChange={handleChange}
+                  onChange={(event) => setFilterValue(event.target.value)}
                   className="minimal"
                   name="product-filter"
                 >
-                  <option value="option">Todos</option>
+                  <option value="Todos">Todos</option>
                   {Object.keys(productObj).map((productKey) => (
                     <option value={productKey}>{productKey}</option>
                   ))}
@@ -43,22 +41,35 @@ function AllProducts() {
           </Container>
 
           <div className="product-list-by-type">
-            <InclinedSeparator bgColorBefore="#fff" bgColorAfter="#606062" />
+            <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
             <Container>
-              {Object.keys(productObj).map((productKey, index) => (
+              {filterValue == "Todos" ? (
+                Object.keys(productObj).map((productKey, index) => (
+                  <>
+                    <div className="product-type" key={"product-type" + index}>
+                      <div className="product-type-color">{productKey}</div>
+                    </div>
+                    <div className={"category-list-" + productKey}>
+                      {productObj[productKey].map((obj) => (
+                        <ProductCard title={obj.name} key={obj.name} />
+                      ))}
+                    </div>
+                  </>
+                ))
+              ) : (
                 <>
-                  <div className="product-type" key={"product-type" + index}>
-                    <div className="product-type-color">{productKey}</div>
+                  <div className="product-type" key={"product-type-1"}>
+                    <div className="product-type-color">{filterValue}</div>
                   </div>
-                  <div className={"category-list-" + productKey}>
-                    {productObj[productKey].map((obj) => (
+                  <div className={"category-list-" + filterValue}>
+                    {productObj[filterValue].map((obj) => (
                       <ProductCard title={obj.name} key={obj.name} />
                     ))}
                   </div>
                 </>
-              ))}
+              )}
             </Container>
-            <InclinedSeparator bgColorBefore="#606062" />
+            <InclinedSeparator bgcolorbefore="#606062" />
           </div>
         </div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />

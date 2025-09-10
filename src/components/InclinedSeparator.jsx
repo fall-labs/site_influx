@@ -11,7 +11,7 @@ const InclinedSeparator = styled.div`
     content: "";
     width: 100%;
     height: 100%;
-    background-color: ${(props) => props.bgColorBefore || "#000"};
+    background-color: ${(props) => props.bgcolorbefore || "#000"};
     clip-path: polygon(100% 0, 0 0, 0 100%);
   }
 
@@ -20,7 +20,7 @@ const InclinedSeparator = styled.div`
     content: "";
     width: 100%;
     height: 100%;
-    background-color: ${(props) => props.bgColorAfter || "#fff"};
+    background-color: ${(props) => props.bgcolorafter || "#fff"};
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
   }
 `;

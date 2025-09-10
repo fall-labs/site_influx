@@ -29,7 +29,7 @@ const HomeProducts = () => {
       </Container>
 
       <div className="list-content">
-        <InclinedSeparator bgColorBefore="#fff" bgColorAfter="#606062" />
+        <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
         <Container>
           <div className="home-product-list">
             {showProductFullList
@@ -49,7 +49,7 @@ const HomeProducts = () => {
               : "Mostrar todos os produtos"}
           </button>
         </Container>
-        <InclinedSeparator bgColorBefore="#606062" />
+        <InclinedSeparator bgcolorbefore="#606062" />
       </div>
     </div>
   );
