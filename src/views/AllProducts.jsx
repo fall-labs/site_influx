@@ -16,7 +16,6 @@ const handleChange = (event) => {
 
 function AllProducts() {
   let productObj = getAllData();
-  console.log(productObj);
   return (
     <>
       <div className="main-background bg-dark">

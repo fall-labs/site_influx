@@ -19,9 +19,8 @@ const Services = () => {
             <p>Serviços</p>
           </div>
           <div className="service-list">
-  
-          {servicesObj.map((obj,i)=>(
-            <ServiceCard index={i} title={obj.title} description={parse(obj.description)}/>
+          {servicesObj.map((obj,index)=>(
+            <ServiceCard key={index} title={obj.title} description={parse(obj.description)}/>
           ))}
           </div>
           
