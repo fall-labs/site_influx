@@ -18,7 +18,6 @@ function Home() {
         <WorkFlow data={siteData.workflow} />
         <div className="separator"></div>
         <HomeProducts />
-        <div class="separator"></div>
         <Footer contactInfo={siteData.contact} aboutInfo={siteData.about} />
       </div>
     </>
