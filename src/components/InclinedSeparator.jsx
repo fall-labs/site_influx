@@ -4,6 +4,7 @@ const InclinedSeparator = styled.div`
   position: relative;
   width: 100vw;
   height: ${(props) => props.height || "40px"};
+  margin: -1px 0;
 
   &::before {
     position: absolute;
