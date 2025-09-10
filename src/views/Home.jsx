@@ -7,11 +7,14 @@ import WorkFlow from "../components/WorkFlowCard";
 import Services from "../components/Services";
 import Banner from "../components/Banner";
 import HomeProducts from "../components/HomeProducts";
+import ScrollToHashElement from "../utils/ScrollToHashElement";
+import { useEffect, useState } from "react";
 
 function Home() {
   return (
     <>
       <div className="main-background bg-dark">
+        <ScrollToHashElement behavior="smooth" inline="start" block="start" />
         <NavBar />
         <Banner />
         <Services />

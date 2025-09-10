@@ -9,18 +9,22 @@ import ProductCard from "../components/ProductCard";
 import BreadCrumbBack from "../components/BreadCrumbBack";
 import getAllData from "../components/ListDataFunction";
 import InclinedSeparator from "../components/InclinedSeparator";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function AllProducts() {
   let productObj = getAllData();
   const [filterValue, setFilterValue] = useState("Todos");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
       <div className="main-background">
         <NavBar />
         <div className="content-div">
-          <Container flexDirection="column">
+          <Container>
             <BreadCrumbBack />
             <div className="title-and-filter">
               <p className="title">Catálogo de Produtos</p>
@@ -31,9 +35,13 @@ function AllProducts() {
                   className="minimal"
                   name="product-filter"
                 >
-                  <option value="Todos">Todos</option>
+                  <option key="select-all" value="Todos">
+                    Todos
+                  </option>
                   {Object.keys(productObj).map((productKey) => (
-                    <option value={productKey}>{productKey}</option>
+                    <option key={`select-${productKey}`} value={productKey}>
+                      {productKey}
+                    </option>
                   ))}
                 </select>
               </div>
