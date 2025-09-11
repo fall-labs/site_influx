@@ -10,6 +10,8 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import InclinedSeparator from "../components/InclinedSeparator";
 import { useEffect } from "react";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const Product = () => {
   const productsData = dataJson.products;
@@ -19,6 +21,13 @@ const Product = () => {
   let otherProducts = productsData.filter(
     (p) => p.category === data.category && p.name != data.name
   );
+  console.log(data);
+  const imageList = data.path_images.image_list.map((item) => ({
+    // original: `../src/assets/images/${data.path_images.folder}/${item}`,
+    // thumbnail: `../src/assets/images/${data.path_images.folder}/${item}`
+    original: `../src/assets/images/foto.png`,
+    thumbnail: `../src/assets/images/foto.png`,
+  }));
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -48,30 +57,13 @@ const Product = () => {
               <div className="product-description">
                 <p>{parse(data.description)}</p>
               </div>
-              <div className="product-img">
-                <img
-                  src="../src/assets/images/foto.png"
-                  className="main-image"
-                />
-                <div className="other-images">
-                  <img
-                    src="../src/assets/images/foto.png"
-                    className="secundary-images"
-                  />
-                  <img
-                    src="../src/assets/images/foto.png"
-                    className="secundary-images"
-                  />
-                  <img
-                    src="../src/assets/images/foto.png"
-                    className="secundary-images"
-                  />
-                  <img
-                    src="../src/assets/images/foto.png"
-                    className="secundary-images"
-                  />
-                </div>
-              </div>
+              <ImageGallery
+                items={imageList}
+                showFullscreenButton={false}
+                showPlayButton={false}
+                autoPlay={true}
+                slideInterval={5000}
+              />
             </div>
           </Container>
           <InclinedSeparator bgcolorbefore="#606062" bgcolorafter="#fff" />
