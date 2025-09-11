@@ -28,63 +28,62 @@ const Product = () => {
     <div className="main-background">
       <NavBar />
       <div className="main-product-page">
-            <div className="product-page">
-            <div className="bg-title">
-              <Container>
-                <div className="title">{data.name}</div>
-              </Container>
-            </div>
-            <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
-            <Container>
-              <BreadCrumbBack
+        <BreadCrumbBack
           links={[
             { to: "/", label: "Home" },
             { to: "/products", label: "Produtos" },
           ]}
           pageName={data.category}
         />
-        <div className="title">{data.name}</div>
-              <div className="product-description-and-img">
-                <div className="product-description">
-                  <p>{parse(data.description)}</p>
-                </div>
-                <div className="product-img">
-                  <img src="../src/assets/images/foto.png" className="main-image" />
-                  <div className="other-images">
-                    <img
-                      src="../src/assets/images/foto.png"
-                      className="secundary-images"
-                    />
-                    <img
-                      src="../src/assets/images/foto.png"
-                      className="secundary-images"
-                    />
-                    <img
-                      src="../src/assets/images/foto.png"
-                      className="secundary-images"
-                    />
-                    <img
-                      src="../src/assets/images/foto.png"
-                      className="secundary-images"
-                    />
-                  </div>
-                </div>
-              </div>
-            </Container>
-            <InclinedSeparator bgcolorbefore="#606062" bgcolorafter="#fff" />
-          </div>
-          
-          <div className="other-products">
-            <Container >
-              <div className="title">Outros medidores de {data.category}</div>
-              <div className="list-other-products">
-                {otherProducts.map((obj) => (
-                  <ProductCard title={obj.name} key={obj.name} />
-                ))}
-              </div>
+        <div className="product-page">
+          <div className="bg-title">
+            <Container>
+              <div className="title">{data.name}</div>
             </Container>
           </div>
-          <Footer contactInfo={dataJson.contact} aboutInfo={dataJson.about} hideContent={true}/>
+          <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
+          <Container>
+            <div className="product-description-and-img">
+              <div className="product-description">
+                <p>{parse(data.description)}</p>
+              </div>
+              <div className="product-img">
+                <img src="../src/assets/images/foto.png" className="main-image" />
+                <div className="other-images">
+                  <img
+                    src="../src/assets/images/foto.png"
+                    className="secundary-images"
+                  />
+                  <img
+                    src="../src/assets/images/foto.png"
+                    className="secundary-images"
+                  />
+                  <img
+                    src="../src/assets/images/foto.png"
+                    className="secundary-images"
+                  />
+                  <img
+                    src="../src/assets/images/foto.png"
+                    className="secundary-images"
+                  />
+                </div>
+              </div>
+            </div>
+          </Container>
+          <InclinedSeparator bgcolorbefore="#606062" bgcolorafter="#fff" />
+        </div>
+
+        <div className="other-products">
+          <Container >
+            <div className="title">Outros medidores de {data.category}</div>
+            <div className="list-other-products">
+              {otherProducts.map((obj) => (
+                <ProductCard title={obj.name} key={obj.name} />
+              ))}
+            </div>
+          </Container>
+        </div>
+        <Footer contactInfo={dataJson.contact} aboutInfo={dataJson.about} hideContent={true} />
       </div>
     </div>
   );
