@@ -7,6 +7,7 @@ import { useSearchParams } from "react-router-dom";
 import dataJson from "../assets/data.json";
 import parse from "html-react-parser";
 import ProductCard from "../components/ProductCard";
+import { useEffect } from "react";
 
 const Product = () => {
   const productsData = dataJson.products;
@@ -17,11 +18,21 @@ const Product = () => {
     (p) => p.category === data.category && p.name != data.name
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="main-background bg-dark">
+    <div className="main-background">
       <NavBar />
-      <BreadCrumbBack />
       <Container>
+        <BreadCrumbBack
+          links={[
+            { to: "/", label: "Home" },
+            { to: "/products", label: "Produtos" },
+          ]}
+          pageName={data.category}
+        />
         <div className="title">{data.name}</div>
         <div className="product-page">
           <div className="product-description-and-img">

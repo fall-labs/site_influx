@@ -2,22 +2,23 @@ import "../assets/components/breadcrumbback.scss";
 
 import { NavLink } from "react-router-dom";
 
-import Container from "./Container";
-
-const BreadCrumbBack = () => {
+const BreadCrumbBack = ({ links, pageName }) => {
   return (
     <>
       <div className="breadcrumb-and-back">
         <div className="breadcrumb-container">
-          <div className="breadcrumb">
-            <NavLink to="/home" className="breadcrumb">
-              Home
-            </NavLink>
-          </div>
-          <p className="neutral">/ Catálogo de Produtos</p>
+          {links.map(({ to, label }) => (
+            <>
+              <NavLink to={to} className="breadcrumb">
+                {label}
+              </NavLink>
+              <span style={{ color: "#5d8100", margin: "0 10px" }}> /</span>
+            </>
+          ))}
+          <p className="neutral">{pageName}</p>
         </div>
         <div className="back">
-          <NavLink to="/products">← Voltar</NavLink>
+          <NavLink to={links.at(-1).to}>← Voltar</NavLink>
         </div>
       </div>
     </>

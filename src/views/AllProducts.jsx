@@ -25,7 +25,10 @@ function AllProducts() {
         <NavBar />
         <div className="content-div">
           <Container>
-            <BreadCrumbBack />
+            <BreadCrumbBack
+              links={[{ to: "/", label: "Home" }]}
+              pageName="Catálogo de Produtos"
+            />
             <div className="title-and-filter">
               <p className="title">Catálogo de Produtos</p>
               <div className="filter">
