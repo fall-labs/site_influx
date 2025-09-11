@@ -9,6 +9,7 @@ import parse from "html-react-parser";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import InclinedSeparator from "../components/InclinedSeparator";
+import { useEffect } from "react";
 
 const Product = () => {
   const productsData = dataJson.products;
@@ -19,12 +20,15 @@ const Product = () => {
     (p) => p.category === data.category && p.name != data.name
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="main-background bg-dark">
+    <div className="main-background">
       <NavBar />
       <div className="main-product-page">
-        <BreadCrumbBack />
-          <div className="product-page">
+            <div className="product-page">
             <div className="bg-title">
               <Container>
                 <div className="title">{data.name}</div>
@@ -32,7 +36,14 @@ const Product = () => {
             </div>
             <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
             <Container>
-              <div className="title">{data.name}</div>
+              <BreadCrumbBack
+          links={[
+            { to: "/", label: "Home" },
+            { to: "/products", label: "Produtos" },
+          ]}
+          pageName={data.category}
+        />
+        <div className="title">{data.name}</div>
               <div className="product-description-and-img">
                 <div className="product-description">
                   <p>{parse(data.description)}</p>
