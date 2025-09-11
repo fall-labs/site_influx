@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import classNames from "classnames";
-import logo from "../assets/images/influx-logo-dark.svg"; // descomente se tiver logo
+import { Link } from 'react-router-dom';
+import { useState } from "react";
+import logo from "../assets/images/influx-logo-dark.svg" // descomente se tiver logo
 import "../assets/components/navBar.scss";
 
 const NAV_ITEMS = [
@@ -11,20 +11,16 @@ const NAV_ITEMS = [
   { to: "/#footer", label: "Sobre a Influx" },
 ];
 
-const NavBar = ({ transparent = false }) => {
-  const headerClass = classNames("header", {
-    transparent,
-    solid: !transparent,
-  });
+const NavBar = () => {
+  const [showNavColumn, handleShowNavColumn] = useState(false);
 
   return (
     <header className="header">
       <div className="nav-center">
         <Link to="/" className="nav-logo">
-          <img src={logo} alt="Logo" className="nav-logo img" />
+          <img src={logo} alt="Logo" className='nav-logo img'/>
         </Link>
-
-        <nav className="navbar" aria-label="Main navigation">
+        <nav className={`navbar ${showNavColumn? "nav-column": ""}`} aria-label="Main navigation">
           <ul className="nav-list">
             {NAV_ITEMS.map(({ to, label }) => (
               <li key={to} className="nav-item">
@@ -33,9 +29,27 @@ const NavBar = ({ transparent = false }) => {
             ))}
           </ul>
         </nav>
+        <button className="btn-hamburguer" onClick={() => handleShowNavColumn((current) => !current)}/>
       </div>
     </header>
   );
 };
 
 export default NavBar;
+
+const NavList = () => {
+
+  return (
+    <ul className="nav-list">
+      {NAV_ITEMS.map(({ to, label }) => (
+        <li key={to} className="nav-item">
+          <NavLink
+            to={to}
+          >
+            {label}
+          </NavLink>
+        </li>
+      ))}
+    </ul>
+  )
+}

@@ -7,6 +7,8 @@ import { useSearchParams } from "react-router-dom";
 import dataJson from "../assets/data.json";
 import parse from "html-react-parser";
 import ProductCard from "../components/ProductCard";
+import Footer from "../components/Footer";
+import InclinedSeparator from "../components/InclinedSeparator";
 
 const Product = () => {
   const productsData = dataJson.products;
@@ -20,44 +22,59 @@ const Product = () => {
   return (
     <div className="main-background bg-dark">
       <NavBar />
-      <BreadCrumbBack />
-      <Container>
-        <div className="title">{data.name}</div>
-        <div className="product-page">
-          <div className="product-description-and-img">
-            <div className="product-description">
-              <p>{parse(data.description)}</p>
+      <div className="main-product-page">
+        <BreadCrumbBack />
+          <div className="product-page">
+            <div className="bg-title">
+              <Container>
+                <div className="title">{data.name}</div>
+              </Container>
             </div>
-            <div className="product-img">
-              <img src="../src/assets/images/foto.png" className="main-image" />
-              <div className="other-images">
-                <img
-                  src="../src/assets/images/foto.png"
-                  className="secundary-images"
-                />
-                <img
-                  src="../src/assets/images/foto.png"
-                  className="secundary-images"
-                />
-                <img
-                  src="../src/assets/images/foto.png"
-                  className="secundary-images"
-                />
-                <img
-                  src="../src/assets/images/foto.png"
-                  className="secundary-images"
-                />
+            <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
+            <Container>
+              <div className="title">{data.name}</div>
+              <div className="product-description-and-img">
+                <div className="product-description">
+                  <p>{parse(data.description)}</p>
+                </div>
+                <div className="product-img">
+                  <img src="../src/assets/images/foto.png" className="main-image" />
+                  <div className="other-images">
+                    <img
+                      src="../src/assets/images/foto.png"
+                      className="secundary-images"
+                    />
+                    <img
+                      src="../src/assets/images/foto.png"
+                      className="secundary-images"
+                    />
+                    <img
+                      src="../src/assets/images/foto.png"
+                      className="secundary-images"
+                    />
+                    <img
+                      src="../src/assets/images/foto.png"
+                      className="secundary-images"
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
+            </Container>
+            <InclinedSeparator bgcolorbefore="#606062" bgcolorafter="#fff" />
           </div>
-        </div>
-        <div className="title">Outros medidores de {data.category}</div>
-        <div className="other-products">
-          {otherProducts.map((obj) => (
-            <ProductCard title={obj.name} key={obj.name} />
-          ))}
-        </div>
-      </Container>
+          
+          <div className="other-products">
+            <Container >
+              <div className="title">Outros medidores de {data.category}</div>
+              <div className="list-other-products">
+                {otherProducts.map((obj) => (
+                  <ProductCard title={obj.name} key={obj.name} />
+                ))}
+              </div>
+            </Container>
+          </div>
+          <Footer contactInfo={dataJson.contact} aboutInfo={dataJson.about} hideContent={true}/>
+      </div>
     </div>
   );
 };

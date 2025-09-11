@@ -8,10 +8,10 @@ import emailIconPath from "../assets/images/email-icon.svg";
 import addressIconPath from "../assets/images/address-icon.svg";
 import Container from "./Container";
 
-const Footer = ({ contactInfo, aboutInfo }) => {
+const Footer = ({ contactInfo, aboutInfo, hideContent=false }) => {
   return (
     <div id="footer" aria-label="Footer">
-      <Container>
+      <Container style={hideContent ? {display: "none"} : {}}>
         <div className="contact">
           <h3>Contato</h3>
           <div className="list">

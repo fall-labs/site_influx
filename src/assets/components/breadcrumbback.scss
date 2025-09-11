@@ -1,11 +1,12 @@
 .breadcrumb-and-back {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   background-color: white;
   position: relative;
   padding: 40px 12px 0;
+  width: 100%;
 }
 
 .breadcrumb-container {

@@ -1,3 +1,26 @@
+.main-product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-page {
+    background-color: #606062;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-title {
+    width: 100%;
+    background-color: #fff;
+    margin-top: -1px;
+    display: flex;
+    justify-content: center;
+    padding: 4vh 0 1vh 0;
+}
+
 .product-description-and-img{
     display: flex;
     flex-direction: row;
@@ -39,7 +62,13 @@
 
 .other-products{
     display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.list-other-products {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: white;
 }
