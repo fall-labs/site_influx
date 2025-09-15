@@ -20,4 +20,7 @@
   @media (orientation: landscape) {
     max-width: 1125px;
   }
+  @media screen and (min-width: 1550px) {
+    max-width: 70dvw;
+  }
 }
