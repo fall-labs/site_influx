@@ -42,15 +42,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-const NavList = () => {
-  return (
-    <ul className="nav-list">
-      {NAV_ITEMS.map(({ to, label }) => (
-        <li key={to} className="nav-item">
-          <NavLink to={to}>{label}</NavLink>
-        </li>
-      ))}
-    </ul>
-  );
-};

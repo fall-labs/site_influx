@@ -2,23 +2,28 @@
 .service-title{
     background-color: white;
     color: #606062;
-    font-size: 40px;
+    font-size: calc(1.3vh + 1.3vw);;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 200px;
+    width: 10.5dvw;
     font-weight: 500;
+    padding-bottom: 2dvh;
+
+    img {
+        width: 2dvw;
+        height: auto;
+    }
 }
 
 .service-card-container{
     background-color: white;
-    max-width: 540px;
     height: 69dvh;
-    border-radius: 7px 7px 20px 20px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-    width: 100%;
-    min-width: 350px;
-    margin-bottom: 2vw;
+    border-radius: 1.5% 1.5% 6% 6%;
+    box-shadow: 0 0.5dvh 1dvh rgba(0, 0, 0, 0.15);
+    width: 48.5%;
+    min-width: 500px;
+    margin-bottom: 2vw
 }
 
 .service-card-image{
@@ -28,15 +33,19 @@
 
 .service-card-title{
     background-color: #606062;
-    font-size: 28px;
-    padding: 8px 40px 8px 40px;
-    ;
+    font-size: 2.5vh;
+    height: 4.3dvh;
+    padding: 0.6dvh 0px 0px 2dvw;
 }
 
 .service-card-description{
     color: #606062;
-    padding: 16px 40px 24px 40px;
-    border-radius: 40px;
+    padding: 1vw 4vh;
+    height: auto;
+
+    p{
+        font-size: 1.8vh;
+    }
 }
 
 @media (orientation: portrait) {

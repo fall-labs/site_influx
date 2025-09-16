@@ -22,10 +22,6 @@ const WorkFlow = ({ data }) => {
         src={image_workflow_background}
       ></img>
       <Container>
-        <div className="workflow-header">
-          <img src={mini_influx_logo}></img>
-          <p>WorkFlow</p>
-        </div>
         <div className="card-container">
           {data.map((item, index) => (
             <TrasparentCard

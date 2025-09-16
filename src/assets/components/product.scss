@@ -1,27 +1,18 @@
 .product-card-container{
-    width: 354px;
-    height: 381px;
+    width: 18.5dvw;
+    height: 41.8dvh;
     background-color: white;
     border-radius: 20px 20px 7px 7px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     display: flex;
-    flex-direction: column;
-    margin: 10px;
-
+    flex-direction: column-reverse;
+    padding-bottom: 2vh
 }
 
 .product-text{
     width: 100%;
-    margin-top: 82%;
     background-color: rgb(168, 207, 69);
     color: black;
-    display: flex;
-    align-items: center;
-    font-size: 21px;
-    font-weight: 640;
-    justify-content: center;
-    flex-wrap: wrap;
+    font-size: 2.6vh;
     text-align: center;
-    
-
 }

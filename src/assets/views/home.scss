@@ -6,7 +6,7 @@
 
 .main-background {
   height: 100%;
-  width: 100dvw;
+  width: 99dvw;
 }
 
 #container-center {
@@ -16,8 +16,15 @@
   justify-content: start;
   position: relative;
   width: 97%;
+  max-width: 58dvw;
 
   @media (orientation: landscape) {
-    max-width: 1125px;
+    min-width: 1125px;
+  }
+
+  @media screen and (max-width: 1130px)  {
+    min-width: auto;
+    max-width: 98dvw;
   }
 }
+

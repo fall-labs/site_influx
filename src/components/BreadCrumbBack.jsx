@@ -7,7 +7,7 @@ const BreadCrumbBack = ({ links, pageName }) => {
     <>
       <div className="breadcrumb-and-back">
         <Container
-          style={{ flexDirection: "row", justifyContent: "space-between" }}
+          style={{ flexDirection: "row", justifyContent: "space-between", width: '100%' }}
         >
           <div className="breadcrumb-container">
             {links.map(({ to, label }) => (

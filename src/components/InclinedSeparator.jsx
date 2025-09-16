@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const InclinedSeparator = styled.div`
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: ${(props) => props.height || "40px"};
   margin: -1px 0;
 

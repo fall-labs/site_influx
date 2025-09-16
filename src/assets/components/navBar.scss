@@ -17,9 +17,15 @@
   justify-content: space-between;
   width: 97%;
   height: 100%;
+  max-width: 58dvw;
 
   @media (orientation: landscape) {
-    max-width: 1126px;
+    min-width: 1125px;
+  }
+
+  @media screen and (max-width: 1130px)  {
+    min-width: auto;
+    max-width: 98dvw;
   }
 }
 
@@ -49,7 +55,7 @@
   background: none;
   border: none;
   color: #606062;
-  font-size: calc(0.4rem + 1vw);
+  font-size: calc(1vh + 1vw);
   font-weight: 350;
   cursor: pointer;
   position: relative;
@@ -97,9 +103,8 @@
 }
 
 .nav-logo img {
-  width: 25dvw;
-  max-width: 265px;
-  height: auto;
+  width: auto;
+  height: 9dvh;
   display: block;
 }
 

@@ -71,10 +71,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  // justify-content: center;
 }
 
 .image-gallery-thumbnail.active,
 .image-gallery-thumbnail:focus {
   outline: none;
   border: 4px solid #a8cf45 !important;
+}
+
+@media (orientation: portrait) {
+  .list-other-products {
+    justify-content: center;
+  }
 }
