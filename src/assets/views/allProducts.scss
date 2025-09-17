@@ -20,8 +20,8 @@ div[class^="category-list"] {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1vw;
-  
-  @media screen and (max-width: 1130px)  {
+
+  @media screen and (max-width: 1130px) {
     justify-content: center;
   }
 }
@@ -36,11 +36,11 @@ div[class^="category-list"] {
 
 .product-type {
   height: 6.1vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 3.6vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 3.6vh 0;
 }
 
 .product-type-color {
@@ -101,6 +101,12 @@ div[class^="category-list"] {
   select:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 #000;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .filter option {
+    font-size: 16px !important;
   }
 }
 
