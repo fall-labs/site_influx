@@ -5,7 +5,7 @@
     position: relative;
     align-items: center;
     background-color: #ffffff;
-    margin: -2px 0;
+    margin: -0.1vh 0;
     padding-top: 5dvh;
 }
 
@@ -42,14 +42,14 @@
     width: 9dvw;
     height: 9dvw;
     border-radius: 100%;
-    border: 8px solid #fff;
+    border: calc(0.3vh + 0.3vw) solid #fff;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .workflow-title{
-    font-size: calc(1rem + 0.7vw);
+    font-size: calc(1vh + 1vw);;
     line-height: 2dvw;
     margin: 1dvw 0 0.6dvw 0;;
     color: #606062;
@@ -57,7 +57,7 @@
 }
 
 .workflow-text{
-    font-size: calc(0.3rem + 0.7vw);
+    font-size: calc(0.6vw + 0.6vh);
     line-height: 1.3dvw;
     color:#000;
     text-align: center;
@@ -68,19 +68,6 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.workflow-header{
-    color: #606062;
-    margin: 40px 0 24px;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-
-    > p {
-        margin-left: 16px;
-    }
 }
 
 @media (orientation: portrait) {

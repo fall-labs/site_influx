@@ -32,7 +32,6 @@ function AllProducts() {
             <div className="title-and-filter">
               <p className="title">Catálogo de Produtos</p>
               <div className="filter">
-                <span>Tipo:</span>
                 <select
                   onChange={(event) => setFilterValue(event.target.value)}
                   className="minimal"

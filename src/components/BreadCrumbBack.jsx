@@ -15,7 +15,7 @@ const BreadCrumbBack = ({ links, pageName }) => {
                 <NavLink to={to} className="breadcrumb">
                   {label}
                 </NavLink>
-                <span style={{ color: "#5d8100", margin: "0 10px" }}> /</span>
+                <span style={{ color: "#5d8100", margin: "0px 0.5vw" }}> /</span>
               </>
             ))}
             <p className="neutral">{pageName}</p>

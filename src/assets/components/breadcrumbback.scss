@@ -13,8 +13,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: calc(0.8vh + 0.8vw);
+  line-height: 3vh;
 }
 
 .breadcrumb-container a,
@@ -24,8 +24,8 @@
 }
 
 .back {
-  font-size: 22px;
-  line-height: 28px;
+  font-size: calc(0.8vh + 0.8vw);
+  line-height: 3vh;
   color: #5d8100;
 }
 

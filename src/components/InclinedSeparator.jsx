@@ -3,8 +3,8 @@ import styled from "styled-components";
 const InclinedSeparator = styled.div`
   position: relative;
   width: 100%;
-  height: ${(props) => props.height || "40px"};
-  margin: -1px 0;
+  height: ${(props) => props.height || "4vh"};
+  margin: -0.2vh 0;
 
   &::before {
     position: absolute;

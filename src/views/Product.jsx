@@ -52,7 +52,6 @@ const Product = () => {
           </div>
           <InclinedSeparator bgcolorbefore="#fff" bgcolorafter="#606062" />
           <Container>
-            <div className="title">{data.name}</div>
             <div className="product-description-and-img">
               <div className="product-description">
                 <p>{parse(data.description)}</p>

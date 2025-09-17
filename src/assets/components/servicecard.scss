@@ -2,11 +2,11 @@
 .service-title{
     background-color: white;
     color: #606062;
-    font-size: calc(1.3vh + 1.3vw);;
+    font-size: calc(1.2vh + 1.2vw);;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 10.5dvw;
+    width: 9.5dvw;
     font-weight: 500;
     padding-bottom: 2dvh;
 
@@ -46,7 +46,4 @@
     p{
         font-size: 1.8vh;
     }
-}
-
-@media (orientation: portrait) {
 }

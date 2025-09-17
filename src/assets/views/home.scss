@@ -16,7 +16,7 @@
   justify-content: start;
   position: relative;
   width: 97%;
-  max-width: 58dvw;
+  max-width: 58.6dvw;
 
   @media (orientation: landscape) {
     min-width: 1125px;
@@ -25,9 +25,6 @@
   @media screen and (max-width: 1130px)  {
     min-width: auto;
     max-width: 98dvw;
-  }
-  @media screen and (min-width: 1550px) {
-    max-width: 70dvw;
   }
 }
 

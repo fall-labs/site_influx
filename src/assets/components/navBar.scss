@@ -17,7 +17,7 @@
   justify-content: space-between;
   width: 97%;
   height: 100%;
-  max-width: 58dvw;
+  max-width: 58.6dvw;
 
   @media (orientation: landscape) {
     min-width: 1125px;
@@ -45,10 +45,6 @@
 
 .navbar .nav-list .nav-item {
   padding: 0.5vw;
-}
-
-.navbar .nav-link {
-  padding: 10px 0;
 }
 
 .navbar a {
@@ -79,7 +75,7 @@
   left: 50%;
   bottom: 0;
   width: 0;
-  height: 2px;
+  height: 0.2vh;
   background: #84b210;
   transition: all 0.3s ease;
 }
