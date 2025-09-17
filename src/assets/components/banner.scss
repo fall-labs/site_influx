@@ -1,62 +1,64 @@
-.banner{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #A8CF45;
-    height: 43dvh;
+.banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8cf4527;
+  height: 43dvh;
 }
 
-.banner-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.banner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner-text1{
-    width: 100%;
-    height: auto;
-    color: #606062;
-    background-color: white;
-    border-radius: calc(0.5vh + 0.5vw);
-    padding: 1.5% 0;
+.line-green {
+  width: 50%;
+  border: #a8cf45 5px solid;
+  margin: 0 30px;
 }
 
-.banner-text2{
-    width: 100%;
-    height: auto;
-    color: #606062;
-    background-color: white;
-    border-radius: calc(0.5vh + 0.5vw);
-    padding: 1.5% 0;
+.banner-text1 {
+  color: #fff;
+  padding: 1.5% 0;
+  text-align: left;
+  padding: 10px 30px;
 }
 
-.title-text{
-    font-size: calc(2.5vh + 1vw);
-    text-align: center;
-    line-height: 5dvh;
-    font-weight: 500;
+.banner-text2 {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  padding: 1.5% 0;
+  padding: 10px 30px;
 }
 
-.subtitle-text{
-    font-size: calc(1.5vh + 1vw);
-    text-align: center;
-    line-height: 4dvh;
+.title-text {
+  font-size: calc(2.5vh + 1vw);
+  line-height: 5dvh;
+  font-weight: 500;
 }
 
-.subtitle-text2{
-    text-align: center;
-    font-size: calc(1.1vh + 1vw);
-    line-height: 4dvh;
+.subtitle-text {
+  font-size: calc(1.5vh + 1vw);
+  line-height: 4dvh;
+}
+
+.subtitle-text2 {
+  font-size: calc(1.1vh + 1vw);
+  line-height: 4dvh;
 }
 
 @media (orientation: portrait) {
-    .banner {
-        display: none;
-    }
-    
+  .banner {
+    display: none;
+  }
 }
