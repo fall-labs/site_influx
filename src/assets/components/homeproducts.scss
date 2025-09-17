@@ -14,23 +14,23 @@
   padding: 7.5vh 0 2vh 0;
 
   a {
-    font-size: calc(0.8vw + 0.8vh);
+    font-size: 2.4vh;
   }
 }
 
 .home-product-title {
-  font-size: calc(1.2vh + 1.2vw);
+  font-size: 3.7vh;
   color: #606062;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 10dvw;
+  width: 21.1dvh;
   font-weight: 500;
   padding-bottom: 2dvh;
 
   img {
-    width: 2dvw;
+    width: 4.2dvh;
     height: auto;
   }
 }
@@ -71,7 +71,7 @@
   border-radius: calc(0.3vh + 0.3vw);
   margin: 2.2vh 0;
   padding: 0.6vh 0;
-  font-size: calc(0.7vh + 0.7vw);
+  font-size: 2.2vh;
   line-height: 2.5vh
 }
 
