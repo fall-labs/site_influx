@@ -7,6 +7,7 @@
 .main-background {
   height: 100%;
   width: 99dvw;
+  min-width: 365px;
 }
 
 #container-center {
@@ -23,8 +24,7 @@
   }
 
   @media screen and (max-width: 1130px)  {
-    min-width: auto;
+    min-width: 350px;
     max-width: 98dvw;
   }
 }
-

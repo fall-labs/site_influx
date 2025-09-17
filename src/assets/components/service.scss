@@ -32,3 +32,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (orientation: portrait) {
+    .service-list {
+        justify-content: center;
+    }
+}
